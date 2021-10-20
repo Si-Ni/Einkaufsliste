@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ausgabe">
+        <!--<div><form id="changeForm"><input id="checkbox" type="checkbox" onClick="reply_clickCheckbox(this.id)"><p>Das erste Produkt</p><button type="submit" id="buttonDelete" onClick="reply_clickButton(this.id)">loeschen</button></form></div>-->
+    </div>
+        <form id="eingabeForm"> <!--action="http://localhost:3000/message" method="POST"-->
+            <input id="eingabe" name="message" type="text">
+            <button type="submit" id="buttonEingabe"> Eintragen </button>
+        </form>
+    <script src="node_modules/socket.io/client-dist/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
